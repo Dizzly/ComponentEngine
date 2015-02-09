@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D724112-FEC4-4AE6-9814-571B733FFFC8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Reusable3D</RootNamespace>
+    <ProjectName>ClearSkies3DLib</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>C:\Users\Aldo\Desktop\Clear Skies\SDL\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Aldo\Desktop\Clear Skies\SDL\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\Aldo\Desktop\Clear Skies\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Aldo\Desktop\Clear Skies\SDL\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_ITERATOR_DEBUG_LEVEL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB2D.h" />
+    <ClInclude Include="Angle.h" />
+    <ClInclude Include="AngleConvert.h" />
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="Billboard.h" />
+    <ClInclude Include="BitmapFont.h" />
+    <ClInclude Include="BitmapFontUI.h" />
+    <ClInclude Include="Capsule.h" />
+    <ClInclude Include="CollisionSystem.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="DirectoryFunctions.h" />
+    <ClInclude Include="EventHandler.h" />
+    <ClInclude Include="EventPoller.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectFactory.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="HomebrewShapes.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LineSegment.h" />
+    <ClInclude Include="LoadLevel.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="NonCopyable.h" />
+    <ClInclude Include="ObjMesh.h" />
+    <ClInclude Include="ObjUsefulFunctions.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="PlaneCapsuleSeg.h" />
+    <ClInclude Include="PlaneLineSeg.h" />
+    <ClInclude Include="PolarCartConversion.h" />
+    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="ReportError.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Skybox.h" />
+    <ClInclude Include="SmartPointer.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TileFunctions.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Vec2.h" />
+    <ClInclude Include="Vec3.h" />
+    <ClInclude Include="Vec4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB2D.cpp" />
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Angle.cpp" />
+    <ClCompile Include="AngleConvert.cpp" />
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="Billboard.cpp" />
+    <ClCompile Include="BitmapFont.cpp" />
+    <ClCompile Include="BitmapFontUI.cpp" />
+    <ClCompile Include="Capsule.cpp" />
+    <ClCompile Include="CollisionSystem.cpp" />
+    <ClCompile Include="DirectoryFunctions.cpp" />
+    <ClCompile Include="EventHandler.cpp" />
+    <ClCompile Include="EventPoller.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="HomebrewShapes.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LineSegment.cpp" />
+    <ClCompile Include="LoadLevel.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="ObjMesh.cpp" />
+    <ClCompile Include="ObjUsefulFunctions.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="PolarCartConversion.cpp" />
+    <ClCompile Include="Quaternion.cpp" />
+    <ClCompile Include="ReportError.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="Skybox.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TileFunctions.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="UI.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

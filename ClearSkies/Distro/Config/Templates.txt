@@ -1,0 +1,26 @@
+#
+#Comment symbol
+
+-PlayerTank
+Config/Prefabs/PlayerTank.txt
+
+-DefaultBullet
+Config/Prefabs/DefaultBullet.txt
+
+-EasyEnemyTank
+Config/Prefabs/EasyEnemyTank.txt
+
+-MediumEnemyTank
+Config/Prefabs/MediumEnemyTank.txt
+
+-HardEnemyTank
+Config/Prefabs/HardEnemyTank.txt
+
+-CubeWall
+Config/Prefabs/CubeWall.txt
+
+-MapSpawner
+Config/Prefabs/MapSpawner.txt
+
+-Gibb
+Config/Prefabs/Gibb.txt

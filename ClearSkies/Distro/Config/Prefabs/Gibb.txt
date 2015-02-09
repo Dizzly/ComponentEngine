@@ -1,0 +1,27 @@
+#
+#comment be commenting
+
+Actor
+
+Name
+TankGibb
+
+<Tags>
+Gibb
+Mappable
+</Tags>
+
+
+LifetimeComponent
+Lifetime
+3
+/LifetimeComponent
+
+SpherePhysicsComponent
+Restituion
+0.9
+Friction
+0.9
+GlobalGravity
+0,-0.2,0
+/SpherePhysicsComponent

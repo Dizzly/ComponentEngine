@@ -1,0 +1,14 @@
+
+
+Combine CompOwner with Actor, its a nice sentiment 
+that anything can have compoennts, but the actor and components
+are so intwined that its fine for the actor to have 
+the component managing sections
+
+Make the mini map look good, for the moment it works
+
+
+Find/ make some more reasonable assets
+
+
+

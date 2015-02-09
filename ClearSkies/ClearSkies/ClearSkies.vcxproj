@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{176E5D9B-3D7C-4AEB-B581-6D999A1673E7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ClearSkies</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Users\Aldo\Desktop\Clear Skies\SDL\lib;C:\Users\Aldo\Desktop\Clear Skies\ClearSkies3DLib\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Aldo\Desktop\Clear Skies\ClearSkies3DLib\ClearSkies3DLib;C:\Users\Aldo\Desktop\Clear Skies\SDL\include;$(IncludePath)</IncludePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Aldo\Desktop\Clear Skies\SDL\include;C:\Users\Aldo\Desktop\Clear Skies\ClearSkies3DLib\ClearSkies3DLib;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Aldo\Desktop\Clear Skies\ClearSkies3DLib\Release;C:\Users\Aldo\Desktop\Clear Skies\SDL\lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
+    <ReferencePath>C:\Users\Aldo\Desktop\Clear Skies\ClearSkies3DLib\Release;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ShowProgress>NotSet</ShowProgress>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActorFactory.cpp" />
+    <ClCompile Include="BoxBoxCollision.cpp" />
+    <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="BoxRayCollision.cpp" />
+    <ClCompile Include="BruteSphereCollision.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraManager.cpp" />
+    <ClCompile Include="CollisionController.cpp" />
+    <ClCompile Include="CollisionEvent.cpp" />
+    <ClCompile Include="CreateActorEvent.cpp" />
+    <ClCompile Include="DeathScoreComponent.cpp" />
+    <ClCompile Include="DefaultBullet.cpp" />
+    <ClCompile Include="DestroyActorEvent.cpp" />
+    <ClCompile Include="EventStore.cpp" />
+    <ClCompile Include="FirstPersonCamera.cpp" />
+    <ClCompile Include="FloorCollisionEvent.cpp" />
+    <ClCompile Include="FontManager.cpp" />
+    <ClCompile Include="GameOverState.cpp" />
+    <ClCompile Include="GetActorEvent.cpp" />
+    <ClCompile Include="GetComponentEvent.cpp" />
+    <ClCompile Include="GibbSpawnComponent.cpp" />
+    <ClCompile Include="GOComponentFactory.cpp" />
+    <ClCompile Include="GOCompOwner.cpp" />
+    <ClCompile Include="GraphicsOptions.cpp" />
+    <ClCompile Include="LifetimeComponent.cpp" />
+    <ClCompile Include="LoadLevel.cpp" />
+    <ClCompile Include="LoadState.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainMenuState.cpp" />
+    <ClCompile Include="MapSpawnerComponent.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MeshManager.cpp" />
+    <ClCompile Include="MoveActorEvent.cpp" />
+    <ClCompile Include="OneClickButton.cpp" />
+    <ClCompile Include="SpherePhysicsComponent.cpp" />
+    <ClCompile Include="PlayerCotrollerEvent.cpp" />
+    <ClCompile Include="PlayerDeathEvent.cpp" />
+    <ClCompile Include="PlayerSpawnEvent.cpp" />
+    <ClCompile Include="PlayerTankController.cpp" />
+    <ClCompile Include="PlayerTankUI.cpp" />
+    <ClCompile Include="PlayState.cpp" />
+    <ClCompile Include="ScoreManager.cpp" />
+    <ClCompile Include="SphereBoxCollision.cpp" />
+    <ClCompile Include="SphereCollider.cpp" />
+    <ClCompile Include="SphereRayCollision.cpp" />
+    <ClCompile Include="SphereSphereCollision.cpp" />
+    <ClCompile Include="SplashState.cpp" />
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="StaticMesh.cpp" />
+    <ClCompile Include="TankAIComponent.cpp" />
+    <ClCompile Include="TankComponent.cpp" />
+    <ClCompile Include="TankMover.cpp" />
+    <ClCompile Include="DefaultWeaponComponent.cpp" />
+    <ClCompile Include="UIManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActorFactory.h" />
+    <ClInclude Include="BruteSphereCollision.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraManager.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="CollisionEvent.h" />
+    <ClInclude Include="CreateActorEvent.h" />
+    <ClInclude Include="DeathScoreComponent.h" />
+    <ClInclude Include="DefaultBullet.h" />
+    <ClInclude Include="DestroyActorEvent.h" />
+    <ClInclude Include="FirstPersonCamera.h" />
+    <ClInclude Include="FloorCollisionEvent.h" />
+    <ClInclude Include="GameOverState.h" />
+    <ClInclude Include="GetActorEvent.h" />
+    <ClInclude Include="GetComponentEvent.h" />
+    <ClInclude Include="GibbSpawnComponent.h" />
+    <ClInclude Include="GOComponent.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventStore.h" />
+    <ClInclude Include="FontManager.h" />
+    <ClInclude Include="GOComponentFactory.h" />
+    <ClInclude Include="GOCompOwner.h" />
+    <ClInclude Include="GraphicsOptions.h" />
+    <ClInclude Include="LifetimeComponent.h" />
+    <ClInclude Include="LoadLevel.h" />
+    <ClInclude Include="CollisionController.h" />
+    <ClInclude Include="LoadState.h" />
+    <ClInclude Include="MainMenuState.h" />
+    <ClInclude Include="MapSpawnerComponent.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MeshManager.h" />
+    <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="MoveActorEvent.h" />
+    <ClInclude Include="SpherePhysicsComponent.h" />
+    <ClInclude Include="PlayerDeathEvent.h" />
+    <ClInclude Include="PlayerSpawnEvent.h" />
+    <ClInclude Include="PlayerTankUI.h" />
+    <ClInclude Include="ScoreManager.h" />
+    <ClInclude Include="TankAIComponent.h" />
+    <ClInclude Include="TankComponent.h" />
+    <ClInclude Include="TankMover.h" />
+    <ClInclude Include="OneClickButton.h" />
+    <ClInclude Include="PlayerControllerEvent.h" />
+    <ClInclude Include="PlayerTankController.h" />
+    <ClInclude Include="PlayState.h" />
+    <ClInclude Include="SphereCollider.h" />
+    <ClInclude Include="SplashState.h" />
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="StaticMesh.h" />
+    <ClInclude Include="DefaultWeaponComponent.h" />
+    <ClInclude Include="UIManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\Prefabs\CubeWall.txt" />
+    <None Include="Config\Prefabs\DefaultBullet.txt" />
+    <None Include="Config\Prefabs\EasyEnemyTank.txt" />
+    <None Include="Config\Prefabs\Gibb.txt" />
+    <None Include="Config\Prefabs\HardEnemyTank.txt" />
+    <None Include="Config\Prefabs\MapSpawner.txt" />
+    <None Include="Config\Prefabs\MediumEnemyTank.txt" />
+    <None Include="Config\Prefabs\PlayerTank.txt" />
+    <None Include="Config\Start.txt" />
+    <None Include="Config\Templates.txt" />
+    <None Include="Sounds\SoundConfig.txt" />
+    <None Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\ClearSkies3DLib\Debug\ClearSkies3DLib.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\..\ClearSkies3DLib\Release\ClearSkies3DLib.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\..\SDL\lib\SDL.lib" />
+    <Library Include="..\..\SDL\lib\SDLmain.lib" />
+    <Library Include="..\..\SDL\lib\SDL_image.lib" />
+    <Library Include="..\..\SDL\lib\SDL_mixer.lib" />
+    <Library Include="..\..\SDL\lib\SDL_ttf.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

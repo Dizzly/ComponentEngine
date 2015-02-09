@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{4f4b8f60-c350-4fef-b326-768fe9c4af1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States\MenuStates">
+      <UniqueIdentifier>{38c0d8f0-1b80-4ac6-a177-a53a8b6d1223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{142ac38d-674d-492b-87e5-b585785510ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{222ee362-ab36-400b-806a-7bbb5828ebf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu\Buttons">
+      <UniqueIdentifier>{4855f94c-7a9d-4c6f-98d6-e84c9cf2af82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu\Buttons\Base Class">
+      <UniqueIdentifier>{906da773-9add-44ff-befb-a5bf3ca5bc91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\EventSystem">
+      <UniqueIdentifier>{f32b1a51-5cd3-462c-a6da-1fdfee69fb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{1830f969-e549-4287-86b3-19209d0692aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collisions">
+      <UniqueIdentifier>{4fde8a6d-35a8-4292-9ff3-6b0fae360c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collisions\Colliders">
+      <UniqueIdentifier>{106a61d5-91f1-4041-ba6d-e1ef55f805cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collisions\Colliders\Base">
+      <UniqueIdentifier>{14b377d1-fa9e-4b1c-9014-a4d6d1e3cde2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{4860084a-5f74-418e-808a-24ac475d7c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventSystem\Events">
+      <UniqueIdentifier>{5c3b6a15-b73a-423b-8079-1efa6cc4f151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{19fce75c-fe77-4204-9cb5-3cf86b0475d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{176c1cf3-6cce-49eb-b522-4412fe91e099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{4699095f-8a51-48a0-acc8-1975aa7572a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\Buttons">
+      <UniqueIdentifier>{cfa5319e-8994-4722-9768-928147fcee3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\Buttons\Base Class">
+      <UniqueIdentifier>{bed9dfac-2a4b-4be2-8e06-f224cc166d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventSystem">
+      <UniqueIdentifier>{34363add-a916-4966-b37a-a508fd953e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventSystem\Events">
+      <UniqueIdentifier>{a9ab43e1-fb25-4d71-b5fb-1a006239cb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{dd8cd033-7479-4d7a-ac56-4268a6382472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factory">
+      <UniqueIdentifier>{985a916c-29e4-4c76-9080-6da4c889bfdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{5aabe170-90f3-410f-a10a-ca7deee1a8da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Base">
+      <UniqueIdentifier>{8983ed96-c110-409b-801a-cecc5bbbcdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Input">
+      <UniqueIdentifier>{293f2b53-2f8d-4436-9fee-2d47b800db6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Collider">
+      <UniqueIdentifier>{12fd6977-a473-451c-9517-c1ff5347ce44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Tank Specific">
+      <UniqueIdentifier>{7afbc67c-c964-443e-85fd-eaf86397793e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{e814cddd-50ab-4e4b-930f-6ee303c1aa61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Base">
+      <UniqueIdentifier>{12aa0d21-8c28-431c-8c5b-3c5b677cc98a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Collider">
+      <UniqueIdentifier>{4988ee8d-c7d0-4689-b2fd-662506ba31e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Input">
+      <UniqueIdentifier>{0d7ac5d1-aa23-4c12-a4ef-b9efeb13a668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Mesh">
+      <UniqueIdentifier>{cb33a229-2ab3-4323-8e19-93cf0f96e69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Tank Specific">
+      <UniqueIdentifier>{da8a1e5d-c43f-4657-a917-80053ac90834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Camera">
+      <UniqueIdentifier>{568abdbb-49ec-4ce3-933e-9a0149283530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Tank Specific\DefaultWeapon">
+      <UniqueIdentifier>{8e427b7e-e1b2-4ac8-a28c-ae3f6f040ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Tank Specific\DefaultBullet">
+      <UniqueIdentifier>{c324bf62-f10a-4fa7-a9ba-62366702c3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Camera">
+      <UniqueIdentifier>{f707c7cb-1d76-4f18-ac4f-482bd8d1676a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Tank Specific\UI">
+      <UniqueIdentifier>{2b5a896e-2af0-49dd-b6ca-20175db6535b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Tank Specific\PlayerTankUI">
+      <UniqueIdentifier>{3fcb66a1-d424-4c9f-91ba-8410c492ddf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventSystem\Events\PlayerEvent">
+      <UniqueIdentifier>{96e1772f-a4de-4156-8276-e08b18611234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventSystem\Events\Collision">
+      <UniqueIdentifier>{6ef02b71-c7d5-4e32-b312-bc80ee3f8a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventSystem\Events\Actor">
+      <UniqueIdentifier>{e93418bc-9d67-4b01-89b9-dc5b9eb3b572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventSystem\Events\Base">
+      <UniqueIdentifier>{30243588-d445-4e0d-a43f-0dfc489b1634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventSystem\Events\Player">
+      <UniqueIdentifier>{af84a0e8-ba36-4c76-96db-570901e397ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventSystem\Events\Actor">
+      <UniqueIdentifier>{ed11d2fd-6507-4205-8471-4b965da31f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventSystem\Events\Collision">
+      <UniqueIdentifier>{db8a9f96-7855-4b17-bba2-553d1bc01956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\AI">
+      <UniqueIdentifier>{1cae1126-0595-4dc5-a74f-f952a66f93bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\AI">
+      <UniqueIdentifier>{b6fcb9ba-2f79-4aa0-9df9-23b0cc602988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Mesh">
+      <UniqueIdentifier>{d8a8fcb6-5ffc-4658-8419-69b9e5fb6808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ZUnfinished">
+      <UniqueIdentifier>{de8b8533-ea23-4c0f-8707-18bdd8ad4d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ZUnfinished">
+      <UniqueIdentifier>{27329fe7-7e33-4a46-ab1d-400e22b8e477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ZUnfinished\Component">
+      <UniqueIdentifier>{0fd05fdc-3d36-4536-9511-dea5838fd8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ZUnfinished\Component">
+      <UniqueIdentifier>{b38ba5c2-8733-47a6-aca8-0eca0af75f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Enemy">
+      <UniqueIdentifier>{ad80f560-c3c3-4d04-8ebb-3e90d5c8cf51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventSystem\Events\Special">
+      <UniqueIdentifier>{a1aec088-1dbb-490d-a3b2-5cd6cc050277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventSystem\Events\Special">
+      <UniqueIdentifier>{f762ae1d-67e9-44ce-83c3-d4a17c6ec459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collisions">
+      <UniqueIdentifier>{8d5ebcb0-c90f-44ed-aeb8-05ef39aaef41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collisions\Collision Functions">
+      <UniqueIdentifier>{f5928798-18c3-45d3-acdf-56630b38d316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Utility">
+      <UniqueIdentifier>{caa9f8af-0c0c-477b-858a-97ec217a3218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Utility">
+      <UniqueIdentifier>{ce60f8b2-8419-4128-a700-0cd62047425b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugLib">
+      <UniqueIdentifier>{b766653d-8169-4fe2-92e6-4fbdae558dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReleaseLib">
+      <UniqueIdentifier>{41301cdd-6665-4799-9af1-2049ef64866b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Menu\Buttons\Base Class</Filter>
+    </ClCompile>
+    <ClCompile Include="OneClickButton.cpp">
+      <Filter>Source Files\Menu\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="EventStore.cpp">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteSphereCollision.cpp">
+      <Filter>Source Files\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionController.cpp">
+      <Filter>Source Files\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="GOComponentFactory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereSphereCollision.cpp">
+      <Filter>Source Files\Collisions\Collision Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GOCompOwner.cpp">
+      <Filter>Source Files\Components\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>Source Files\Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTankController.cpp">
+      <Filter>Source Files\Components\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>Source Files\Components\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorFactory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="TankComponent.cpp">
+      <Filter>Source Files\Components\Tank Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TankMover.cpp">
+      <Filter>Source Files\Components\Tank Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereRayCollision.cpp">
+      <Filter>Source Files\Collisions\Collision Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Source Files\Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstPersonCamera.cpp">
+      <Filter>Source Files\Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBullet.cpp">
+      <Filter>Source Files\Components\Tank Specific\DefaultWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultWeaponComponent.cpp">
+      <Filter>Source Files\Components\Tank Specific\DefaultWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTankUI.cpp">
+      <Filter>Source Files\Components\Tank Specific\PlayerTankUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCotrollerEvent.cpp">
+      <Filter>Source Files\EventSystem\Events\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateActorEvent.cpp">
+      <Filter>Source Files\EventSystem\Events\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="GetActorEvent.cpp">
+      <Filter>Source Files\EventSystem\Events\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="DestroyActorEvent.cpp">
+      <Filter>Source Files\EventSystem\Events\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionEvent.cpp">
+      <Filter>Source Files\EventSystem\Events\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDeathEvent.cpp">
+      <Filter>Source Files\EventSystem\Events\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSpawnEvent.cpp">
+      <Filter>Source Files\EventSystem\Events\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveActorEvent.cpp">
+      <Filter>Source Files\EventSystem\Events\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereBoxCollision.cpp">
+      <Filter>Source Files\Collisions\Collision Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxRayCollision.cpp">
+      <Filter>Source Files\Collisions\Collision Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="TankAIComponent.cpp">
+      <Filter>Source Files\Components\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GetComponentEvent.cpp">
+      <Filter>Source Files\ZUnfinished\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathScoreComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSpawnerComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxBoxCollision.cpp">
+      <Filter>Source Files\Collisions\Collision Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpherePhysicsComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorCollisionEvent.cpp">
+      <Filter>Source Files\EventSystem\Events\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="LifetimeComponent.cpp">
+      <Filter>Source Files\Components\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GibbSpawnComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SplashState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Header Files\States\MenuStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Menu\Buttons\Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="OneClickButton.h">
+      <Filter>Header Files\Menu\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="EventStore.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTankController.h">
+      <Filter>Header Files\Components\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionController.h">
+      <Filter>Header Files\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\Collisions\Colliders\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GOComponentFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GOComponent.h">
+      <Filter>Header Files\Components\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GOCompOwner.h">
+      <Filter>Header Files\Components\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>Header Files\Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="TankComponent.h">
+      <Filter>Header Files\Components\Tank Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="TankMover.h">
+      <Filter>Header Files\Components\Tank Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BruteSphereCollision.h">
+      <Filter>Header Files\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Header Files\Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultWeaponComponent.h">
+      <Filter>Header Files\Components\Tank Specific\DefaultBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBullet.h">
+      <Filter>Header Files\Components\Tank Specific\DefaultBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstPersonCamera.h">
+      <Filter>Header Files\Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTankUI.h">
+      <Filter>Header Files\Components\Tank Specific\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDeathEvent.h">
+      <Filter>Header Files\EventSystem\Events\PlayerEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerControllerEvent.h">
+      <Filter>Header Files\EventSystem\Events\PlayerEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSpawnEvent.h">
+      <Filter>Header Files\EventSystem\Events\PlayerEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionEvent.h">
+      <Filter>Header Files\EventSystem\Events\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateActorEvent.h">
+      <Filter>Header Files\EventSystem\Events\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="DestroyActorEvent.h">
+      <Filter>Header Files\EventSystem\Events\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="GetActorEvent.h">
+      <Filter>Header Files\EventSystem\Events\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\EventSystem\Events\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveActorEvent.h">
+      <Filter>Header Files\EventSystem\Events\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TankAIComponent.h">
+      <Filter>Header Files\Components\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GetComponentEvent.h">
+      <Filter>Header Files\ZUnfinished\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>Header Files\Components\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathScoreComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSpawnerComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpherePhysicsComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorCollisionEvent.h">
+      <Filter>Header Files\EventSystem\Events\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="LifetimeComponent.h">
+      <Filter>Header Files\Components\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GibbSpawnComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadLevel.h">
+      <Filter>ReleaseLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TODO.txt" />
+    <None Include="Config\Prefabs\CubeWall.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Config\Prefabs\DefaultBullet.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Config\Prefabs\MapSpawner.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Config\Prefabs\PlayerTank.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Config\Start.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Config\Templates.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Config\Prefabs\EasyEnemyTank.txt">
+      <Filter>Resource Files\Enemy</Filter>
+    </None>
+    <None Include="Config\Prefabs\Gibb.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Config\Prefabs\HardEnemyTank.txt">
+      <Filter>Resource Files\Enemy</Filter>
+    </None>
+    <None Include="Config\Prefabs\MediumEnemyTank.txt">
+      <Filter>Resource Files\Enemy</Filter>
+    </None>
+    <None Include="Sounds\SoundConfig.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\SDL\lib\SDL.lib" />
+    <Library Include="..\..\SDL\lib\SDL_image.lib" />
+    <Library Include="..\..\SDL\lib\SDL_mixer.lib" />
+    <Library Include="..\..\SDL\lib\SDL_ttf.lib" />
+    <Library Include="..\..\SDL\lib\SDLmain.lib" />
+    <Library Include="..\..\ClearSkies3DLib\Debug\ClearSkies3DLib.lib">
+      <Filter>DebugLib</Filter>
+    </Library>
+    <Library Include="..\..\ClearSkies3DLib\Release\ClearSkies3DLib.lib">
+      <Filter>ReleaseLib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
